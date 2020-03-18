@@ -1,4 +1,4 @@
-<footer class="border-top fixed-bottom">
+<footer class="border-top fixed-bottom" style="background-color: white">
 <div class="container">
   <div class="menus my-2">
   <a href="../post/home.php"><img src="../images/my_img/home.svg" width="40" height="40" class="mr-4"></a>

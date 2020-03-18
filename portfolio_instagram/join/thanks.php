@@ -14,11 +14,8 @@ include('../common/__function.php');
         <div class="mt-5 mb-4">
           <a href="../login.php"><input type="button" value="ログインする" class="btn btn-primary"></a>
         </div>
-        </form>
       </div>
     </div>
-  </div>
-  </div>
   </div>
 
 
