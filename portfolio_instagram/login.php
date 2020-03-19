@@ -3,7 +3,7 @@ require('common/dbconnect.php');
 
 session_start();
 
-if ($_COOKIE['email'] != '') {
+if (isset($_COOKIE['email'])) {
   $_POST['email'] = $_COOKIE['email'];
   $_POST['password'] = $_COOKIE['password'];
   $_POST['save'] = 'on';
@@ -29,7 +29,6 @@ if (!empty($_POST)) {
         setcookie('email', $_POST['email'], time() + 60 * 60 * 4 * 14);
         setcookie('password', $_POST['password'], time() + 60 * 60 * 4 * 14);
       }
-
       header('Location: post/home.php');
       exit();
     } else {
@@ -66,6 +65,7 @@ include('common/__function.php');
           <div><input type="submit" value="ログイン" class="btn btn-primary mt-4 mb-2"></div>
         </form>
       </div>
+
     </div>
   </div>
   <div class="card text-center mt-2 mx-auto" style="max-width: 500px">

@@ -82,7 +82,7 @@ include('../common/__function.php');
                 <?php endif; ?>
               </div>
             </label>
-            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"><?php echo h($_POST['message']); ?></textarea>
+            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"><?php echo nl2br(h($_POST['message'])); ?></textarea>
           </div>
           <div class="mt-4">
             <input type="submit" value="投稿する" class="btn btn-primary">

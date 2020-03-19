@@ -5,7 +5,7 @@
   <a href="#"><img src="../images/my_img/search.svg" width="40" height="40" class="mr-4"></a>
   <a href="../post/add.php"><img src="../images/my_img/plus.svg" width="40" height="40" class="mr-4"></a>
   <a href="#"><img src="../images/my_img/heart.svg" width="40" height="40" class="mr-4"></a>
-  <a href="#"><img src="../images/my_img/people.svg" width="40" height="40"></a>
+  <a href="user_page.php"><img src="../images/my_img/people.svg" width="40" height="40"></a>
   </div>
 </div>
 </footer>

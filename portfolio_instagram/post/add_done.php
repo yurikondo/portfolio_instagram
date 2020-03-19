@@ -34,7 +34,7 @@ include('../common/__function.php');
             </div>
         </div><br><br>
         <div class="float-left">
-          <?php echo h($_SESSION['add']['message']); ?>
+          <?php echo nl2br(h($_SESSION['add']['message'])); ?>
         </div>
         <div class="mt-5">
           <a href="home.php">
