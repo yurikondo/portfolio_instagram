@@ -1,5 +1,5 @@
 # portfolio_instagram
 
-note
+details
 
 https://note.com/yurikondo/n/n2e0460b383ad
